@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'NumberTest' target in the 'NumberTest' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

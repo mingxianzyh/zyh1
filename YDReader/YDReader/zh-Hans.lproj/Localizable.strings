@@ -1,0 +1,12 @@
+/* 
+  ydLocal.strings
+  YDReader
+
+  Created by sunlight on 14-10-9.
+  Copyright (c) 2014年 wisdom. All rights reserved.
+*/
+"BookStore" = "书库";
+"BookMark" = "书签";
+"Upload" = "上传";
+"Setting" = "设置";
+"UserInfo" = "用户";

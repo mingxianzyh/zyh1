@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4AD7DFF19A5F4030054AD4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4AD7DFE19A5F4030054AD4D /* Foundation.framework */; };
+		F4AD7E0119A5F4030054AD4D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4AD7E0019A5F4030054AD4D /* CoreGraphics.framework */; };
+		F4AD7E0319A5F4030054AD4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4AD7E0219A5F4030054AD4D /* UIKit.framework */; };
+		F4AD7E0919A5F4030054AD4D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4AD7E0719A5F4030054AD4D /* InfoPlist.strings */; };
+		F4AD7E0B19A5F4030054AD4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AD7E0A19A5F4030054AD4D /* main.m */; };
+		F4AD7E0F19A5F4030054AD4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AD7E0E19A5F4030054AD4D /* AppDelegate.m */; };
+		F4AD7E1119A5F4030054AD4D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4AD7E1019A5F4030054AD4D /* Images.xcassets */; };
+		F4AD7E1819A5F4030054AD4D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4AD7E1719A5F4030054AD4D /* XCTest.framework */; };
+		F4AD7E1919A5F4030054AD4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4AD7DFE19A5F4030054AD4D /* Foundation.framework */; };
+		F4AD7E1A19A5F4030054AD4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4AD7E0219A5F4030054AD4D /* UIKit.framework */; };
+		F4AD7E2219A5F4030054AD4D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4AD7E2019A5F4030054AD4D /* InfoPlist.strings */; };
+		F4AD7E2419A5F4030054AD4D /* MPPlotTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AD7E2319A5F4030054AD4D /* MPPlotTestTests.m */; };
+		F4AD7E3219A5F4330054AD4D /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AD7E2F19A5F4330054AD4D /* UIView+Frame.m */; };
+		F4AD7E3319A5F4330054AD4D /* UIBezierPath+curved.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AD7E3119A5F4330054AD4D /* UIBezierPath+curved.m */; };
+		F4AD7E3A19A5F43C0054AD4D /* MPPlot.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AD7E3519A5F43C0054AD4D /* MPPlot.m */; };
+		F4AD7E3B19A5F43C0054AD4D /* MPGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AD7E3719A5F43C0054AD4D /* MPGraphView.m */; };
+		F4AD7E3F19A5F4480054AD4D /* MPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AD7E3E19A5F4480054AD4D /* MPViewController.m */; };
+		F4AD7E4219A6EF3D0054AD4D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AD7E4119A6EF3D0054AD4D /* MainViewController.m */; };
+		F4AD7E4419A6EF7E0054AD4D /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4AD7E4319A6EF7E0054AD4D /* MainViewController.xib */; };
+		F4E991AB19A70B27000C1DDC /* SingleBrokenLinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E991AA19A70B27000C1DDC /* SingleBrokenLinViewController.m */; };
+		F4E991BF19AEC9E1000C1DDC /* SingleCureLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E991BE19AEC9E1000C1DDC /* SingleCureLineViewController.m */; };
+		F4E991C219AED13D000C1DDC /* DoubleLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E991C119AED13D000C1DDC /* DoubleLineViewController.m */; };
+		F4E991C519AF2FD1000C1DDC /* DoubleCureLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E991C419AF2FD1000C1DDC /* DoubleCureLineViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4AD7E1B19A5F4030054AD4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4AD7DF319A5F4030054AD4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4AD7DFA19A5F4030054AD4D;
+			remoteInfo = MPPlotTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4AD7DFB19A5F4030054AD4D /* MPPlotTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MPPlotTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4AD7DFE19A5F4030054AD4D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F4AD7E0019A5F4030054AD4D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F4AD7E0219A5F4030054AD4D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F4AD7E0619A5F4030054AD4D /* MPPlotTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MPPlotTest-Info.plist"; sourceTree = "<group>"; };
+		F4AD7E0819A5F4030054AD4D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4AD7E0A19A5F4030054AD4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4AD7E0C19A5F4030054AD4D /* MPPlotTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MPPlotTest-Prefix.pch"; sourceTree = "<group>"; };
+		F4AD7E0D19A5F4030054AD4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F4AD7E0E19A5F4030054AD4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F4AD7E1019A5F4030054AD4D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F4AD7E1619A5F4030054AD4D /* MPPlotTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MPPlotTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4AD7E1719A5F4030054AD4D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F4AD7E1F19A5F4030054AD4D /* MPPlotTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MPPlotTestTests-Info.plist"; sourceTree = "<group>"; };
+		F4AD7E2119A5F4030054AD4D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4AD7E2319A5F4030054AD4D /* MPPlotTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPPlotTestTests.m; sourceTree = "<group>"; };
+		F4AD7E2E19A5F4330054AD4D /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		F4AD7E2F19A5F4330054AD4D /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		F4AD7E3019A5F4330054AD4D /* UIBezierPath+curved.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+curved.h"; sourceTree = "<group>"; };
+		F4AD7E3119A5F4330054AD4D /* UIBezierPath+curved.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+curved.m"; sourceTree = "<group>"; };
+		F4AD7E3419A5F43C0054AD4D /* MPPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPPlot.h; sourceTree = "<group>"; };
+		F4AD7E3519A5F43C0054AD4D /* MPPlot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPPlot.m; sourceTree = "<group>"; };
+		F4AD7E3619A5F43C0054AD4D /* MPGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPGraphView.h; sourceTree = "<group>"; };
+		F4AD7E3719A5F43C0054AD4D /* MPGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPGraphView.m; sourceTree = "<group>"; };
+		F4AD7E3D19A5F4480054AD4D /* MPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPViewController.h; sourceTree = "<group>"; };
+		F4AD7E3E19A5F4480054AD4D /* MPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPViewController.m; sourceTree = "<group>"; };
+		F4AD7E4019A6EF3D0054AD4D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F4AD7E4119A6EF3D0054AD4D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F4AD7E4319A6EF7E0054AD4D /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainViewController.xib; path = ../MainViewController.xib; sourceTree = "<group>"; };
+		F4E991A919A70B27000C1DDC /* SingleBrokenLinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleBrokenLinViewController.h; sourceTree = "<group>"; };
+		F4E991AA19A70B27000C1DDC /* SingleBrokenLinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleBrokenLinViewController.m; sourceTree = "<group>"; };
+		F4E991BD19AEC9E1000C1DDC /* SingleCureLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleCureLineViewController.h; sourceTree = "<group>"; };
+		F4E991BE19AEC9E1000C1DDC /* SingleCureLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleCureLineViewController.m; sourceTree = "<group>"; };
+		F4E991C019AED13D000C1DDC /* DoubleLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleLineViewController.h; sourceTree = "<group>"; };
+		F4E991C119AED13D000C1DDC /* DoubleLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleLineViewController.m; sourceTree = "<group>"; };
+		F4E991C319AF2FD1000C1DDC /* DoubleCureLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleCureLineViewController.h; sourceTree = "<group>"; };
+		F4E991C419AF2FD1000C1DDC /* DoubleCureLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleCureLineViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4AD7DF819A5F4030054AD4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4AD7E0119A5F4030054AD4D /* CoreGraphics.framework in Frameworks */,
+				F4AD7E0319A5F4030054AD4D /* UIKit.framework in Frameworks */,
+				F4AD7DFF19A5F4030054AD4D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4AD7E1319A5F4030054AD4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4AD7E1819A5F4030054AD4D /* XCTest.framework in Frameworks */,
+				F4AD7E1A19A5F4030054AD4D /* UIKit.framework in Frameworks */,
+				F4AD7E1919A5F4030054AD4D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4AD7DF219A5F4030054AD4D = {
+			isa = PBXGroup;
+			children = (
+				F4AD7E0419A5F4030054AD4D /* MPPlotTest */,
+				F4AD7E1D19A5F4030054AD4D /* MPPlotTestTests */,
+				F4AD7DFD19A5F4030054AD4D /* Frameworks */,
+				F4AD7DFC19A5F4030054AD4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4AD7DFC19A5F4030054AD4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4AD7DFB19A5F4030054AD4D /* MPPlotTest.app */,
+				F4AD7E1619A5F4030054AD4D /* MPPlotTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4AD7DFD19A5F4030054AD4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4AD7DFE19A5F4030054AD4D /* Foundation.framework */,
+				F4AD7E0019A5F4030054AD4D /* CoreGraphics.framework */,
+				F4AD7E0219A5F4030054AD4D /* UIKit.framework */,
+				F4AD7E1719A5F4030054AD4D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4AD7E0419A5F4030054AD4D /* MPPlotTest */ = {
+			isa = PBXGroup;
+			children = (
+				F4AD7E2D19A5F41C0054AD4D /* class */,
+				F4AD7E0D19A5F4030054AD4D /* AppDelegate.h */,
+				F4AD7E0E19A5F4030054AD4D /* AppDelegate.m */,
+				F4AD7E3D19A5F4480054AD4D /* MPViewController.h */,
+				F4AD7E3E19A5F4480054AD4D /* MPViewController.m */,
+				F4AD7E1019A5F4030054AD4D /* Images.xcassets */,
+				F4AD7E0519A5F4030054AD4D /* Supporting Files */,
+				F4AD7E4019A6EF3D0054AD4D /* MainViewController.h */,
+				F4AD7E4119A6EF3D0054AD4D /* MainViewController.m */,
+				F4AD7E4319A6EF7E0054AD4D /* MainViewController.xib */,
+				F4E991A919A70B27000C1DDC /* SingleBrokenLinViewController.h */,
+				F4E991AA19A70B27000C1DDC /* SingleBrokenLinViewController.m */,
+				F4E991BD19AEC9E1000C1DDC /* SingleCureLineViewController.h */,
+				F4E991BE19AEC9E1000C1DDC /* SingleCureLineViewController.m */,
+				F4E991C019AED13D000C1DDC /* DoubleLineViewController.h */,
+				F4E991C119AED13D000C1DDC /* DoubleLineViewController.m */,
+				F4E991C319AF2FD1000C1DDC /* DoubleCureLineViewController.h */,
+				F4E991C419AF2FD1000C1DDC /* DoubleCureLineViewController.m */,
+			);
+			path = MPPlotTest;
+			sourceTree = "<group>";
+		};
+		F4AD7E0519A5F4030054AD4D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4AD7E0619A5F4030054AD4D /* MPPlotTest-Info.plist */,
+				F4AD7E0719A5F4030054AD4D /* InfoPlist.strings */,
+				F4AD7E0A19A5F4030054AD4D /* main.m */,
+				F4AD7E0C19A5F4030054AD4D /* MPPlotTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4AD7E1D19A5F4030054AD4D /* MPPlotTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4AD7E2319A5F4030054AD4D /* MPPlotTestTests.m */,
+				F4AD7E1E19A5F4030054AD4D /* Supporting Files */,
+			);
+			path = MPPlotTestTests;
+			sourceTree = "<group>";
+		};
+		F4AD7E1E19A5F4030054AD4D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4AD7E1F19A5F4030054AD4D /* MPPlotTestTests-Info.plist */,
+				F4AD7E2019A5F4030054AD4D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4AD7E2D19A5F41C0054AD4D /* class */ = {
+			isa = PBXGroup;
+			children = (
+				F4AD7E2E19A5F4330054AD4D /* UIView+Frame.h */,
+				F4AD7E2F19A5F4330054AD4D /* UIView+Frame.m */,
+				F4AD7E3019A5F4330054AD4D /* UIBezierPath+curved.h */,
+				F4AD7E3119A5F4330054AD4D /* UIBezierPath+curved.m */,
+				F4AD7E3419A5F43C0054AD4D /* MPPlot.h */,
+				F4AD7E3519A5F43C0054AD4D /* MPPlot.m */,
+				F4AD7E3619A5F43C0054AD4D /* MPGraphView.h */,
+				F4AD7E3719A5F43C0054AD4D /* MPGraphView.m */,
+			);
+			name = class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4AD7DFA19A5F4030054AD4D /* MPPlotTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4AD7E2719A5F4030054AD4D /* Build configuration list for PBXNativeTarget "MPPlotTest" */;
+			buildPhases = (
+				F4AD7DF719A5F4030054AD4D /* Sources */,
+				F4AD7DF819A5F4030054AD4D /* Frameworks */,
+				F4AD7DF919A5F4030054AD4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MPPlotTest;
+			productName = MPPlotTest;
+			productReference = F4AD7DFB19A5F4030054AD4D /* MPPlotTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4AD7E1519A5F4030054AD4D /* MPPlotTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4AD7E2A19A5F4030054AD4D /* Build configuration list for PBXNativeTarget "MPPlotTestTests" */;
+			buildPhases = (
+				F4AD7E1219A5F4030054AD4D /* Sources */,
+				F4AD7E1319A5F4030054AD4D /* Frameworks */,
+				F4AD7E1419A5F4030054AD4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4AD7E1C19A5F4030054AD4D /* PBXTargetDependency */,
+			);
+			name = MPPlotTestTests;
+			productName = MPPlotTestTests;
+			productReference = F4AD7E1619A5F4030054AD4D /* MPPlotTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4AD7DF319A5F4030054AD4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = wisdom;
+				TargetAttributes = {
+					F4AD7E1519A5F4030054AD4D = {
+						TestTargetID = F4AD7DFA19A5F4030054AD4D;
+					};
+				};
+			};
+			buildConfigurationList = F4AD7DF619A5F4030054AD4D /* Build configuration list for PBXProject "MPPlotTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F4AD7DF219A5F4030054AD4D;
+			productRefGroup = F4AD7DFC19A5F4030054AD4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4AD7DFA19A5F4030054AD4D /* MPPlotTest */,
+				F4AD7E1519A5F4030054AD4D /* MPPlotTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4AD7DF919A5F4030054AD4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4AD7E0919A5F4030054AD4D /* InfoPlist.strings in Resources */,
+				F4AD7E4419A6EF7E0054AD4D /* MainViewController.xib in Resources */,
+				F4AD7E1119A5F4030054AD4D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4AD7E1419A5F4030054AD4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4AD7E2219A5F4030054AD4D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4AD7DF719A5F4030054AD4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4AD7E3F19A5F4480054AD4D /* MPViewController.m in Sources */,
+				F4AD7E3B19A5F43C0054AD4D /* MPGraphView.m in Sources */,
+				F4E991C219AED13D000C1DDC /* DoubleLineViewController.m in Sources */,
+				F4E991AB19A70B27000C1DDC /* SingleBrokenLinViewController.m in Sources */,
+				F4AD7E3A19A5F43C0054AD4D /* MPPlot.m in Sources */,
+				F4AD7E4219A6EF3D0054AD4D /* MainViewController.m in Sources */,
+				F4AD7E3319A5F4330054AD4D /* UIBezierPath+curved.m in Sources */,
+				F4AD7E3219A5F4330054AD4D /* UIView+Frame.m in Sources */,
+				F4AD7E0F19A5F4030054AD4D /* AppDelegate.m in Sources */,
+				F4E991BF19AEC9E1000C1DDC /* SingleCureLineViewController.m in Sources */,
+				F4E991C519AF2FD1000C1DDC /* DoubleCureLineViewController.m in Sources */,
+				F4AD7E0B19A5F4030054AD4D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4AD7E1219A5F4030054AD4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4AD7E2419A5F4030054AD4D /* MPPlotTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4AD7E1C19A5F4030054AD4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4AD7DFA19A5F4030054AD4D /* MPPlotTest */;
+			targetProxy = F4AD7E1B19A5F4030054AD4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4AD7E0719A5F4030054AD4D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4AD7E0819A5F4030054AD4D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F4AD7E2019A5F4030054AD4D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4AD7E2119A5F4030054AD4D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4AD7E2519A5F4030054AD4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F4AD7E2619A5F4030054AD4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4AD7E2819A5F4030054AD4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MPPlotTest/MPPlotTest-Prefix.pch";
+				INFOPLIST_FILE = "MPPlotTest/MPPlotTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F4AD7E2919A5F4030054AD4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MPPlotTest/MPPlotTest-Prefix.pch";
+				INFOPLIST_FILE = "MPPlotTest/MPPlotTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F4AD7E2B19A5F4030054AD4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MPPlotTest.app/MPPlotTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MPPlotTest/MPPlotTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MPPlotTestTests/MPPlotTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F4AD7E2C19A5F4030054AD4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MPPlotTest.app/MPPlotTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MPPlotTest/MPPlotTest-Prefix.pch";
+				INFOPLIST_FILE = "MPPlotTestTests/MPPlotTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4AD7DF619A5F4030054AD4D /* Build configuration list for PBXProject "MPPlotTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4AD7E2519A5F4030054AD4D /* Debug */,
+				F4AD7E2619A5F4030054AD4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4AD7E2719A5F4030054AD4D /* Build configuration list for PBXNativeTarget "MPPlotTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4AD7E2819A5F4030054AD4D /* Debug */,
+				F4AD7E2919A5F4030054AD4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4AD7E2A19A5F4030054AD4D /* Build configuration list for PBXNativeTarget "MPPlotTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4AD7E2B19A5F4030054AD4D /* Debug */,
+				F4AD7E2C19A5F4030054AD4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4AD7DF319A5F4030054AD4D /* Project object */;
+}

@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F466CF0218C067F700910D68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F466CF0118C067F700910D68 /* Foundation.framework */; };
+		F466CF0518C067F700910D68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F466CF0418C067F700910D68 /* main.m */; };
+		F466CF0918C067F700910D68 /* NSArrayTest.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F466CF0818C067F700910D68 /* NSArrayTest.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F466CEFC18C067F700910D68 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				F466CF0918C067F700910D68 /* NSArrayTest.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F466CEFE18C067F700910D68 /* NSArrayTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NSArrayTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F466CF0118C067F700910D68 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F466CF0418C067F700910D68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F466CF0718C067F700910D68 /* NSArrayTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArrayTest-Prefix.pch"; sourceTree = "<group>"; };
+		F466CF0818C067F700910D68 /* NSArrayTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = NSArrayTest.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F466CEFB18C067F700910D68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F466CF0218C067F700910D68 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F466CEF518C067F700910D68 = {
+			isa = PBXGroup;
+			children = (
+				F466CF0318C067F700910D68 /* NSArrayTest */,
+				F466CF0018C067F700910D68 /* Frameworks */,
+				F466CEFF18C067F700910D68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F466CEFF18C067F700910D68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F466CEFE18C067F700910D68 /* NSArrayTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F466CF0018C067F700910D68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F466CF0118C067F700910D68 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F466CF0318C067F700910D68 /* NSArrayTest */ = {
+			isa = PBXGroup;
+			children = (
+				F466CF0418C067F700910D68 /* main.m */,
+				F466CF0818C067F700910D68 /* NSArrayTest.1 */,
+				F466CF0618C067F700910D68 /* Supporting Files */,
+			);
+			path = NSArrayTest;
+			sourceTree = "<group>";
+		};
+		F466CF0618C067F700910D68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F466CF0718C067F700910D68 /* NSArrayTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F466CEFD18C067F700910D68 /* NSArrayTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F466CF0C18C067F700910D68 /* Build configuration list for PBXNativeTarget "NSArrayTest" */;
+			buildPhases = (
+				F466CEFA18C067F700910D68 /* Sources */,
+				F466CEFB18C067F700910D68 /* Frameworks */,
+				F466CEFC18C067F700910D68 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSArrayTest;
+			productName = NSArrayTest;
+			productReference = F466CEFE18C067F700910D68 /* NSArrayTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F466CEF618C067F700910D68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = sunlight.wisdom;
+			};
+			buildConfigurationList = F466CEF918C067F700910D68 /* Build configuration list for PBXProject "NSArrayTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F466CEF518C067F700910D68;
+			productRefGroup = F466CEFF18C067F700910D68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F466CEFD18C067F700910D68 /* NSArrayTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F466CEFA18C067F700910D68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F466CF0518C067F700910D68 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F466CF0A18C067F700910D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F466CF0B18C067F700910D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F466CF0D18C067F700910D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSArrayTest/NSArrayTest-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F466CF0E18C067F700910D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSArrayTest/NSArrayTest-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F466CEF918C067F700910D68 /* Build configuration list for PBXProject "NSArrayTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F466CF0A18C067F700910D68 /* Debug */,
+				F466CF0B18C067F700910D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F466CF0C18C067F700910D68 /* Build configuration list for PBXNativeTarget "NSArrayTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F466CF0D18C067F700910D68 /* Debug */,
+				F466CF0E18C067F700910D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F466CEF618C067F700910D68 /* Project object */;
+}

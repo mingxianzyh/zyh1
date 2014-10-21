@@ -1,0 +1,13 @@
+加入以下系统框架
+libxml2.dylib
+libz.dylib
+MobileCoreServices.framework
+SystemConfiguration.framework
+CFNetwork.framework
+QuartzCore.framework
+Foundation.framework
+CoreGraphics.framework
+UIKit.framework
+CoreData.framework
+
+

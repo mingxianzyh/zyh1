@@ -1,0 +1,3 @@
+Dto 如果包含NSArray属性，当在从json转为Dto的时候，需要写上相应属性_class Class类型属性或者方法
+
+Dto必须继承Jastor，并且以Dto结尾

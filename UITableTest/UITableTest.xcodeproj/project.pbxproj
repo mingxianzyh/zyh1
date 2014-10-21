@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F49DF80918D73114006A8150 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49DF80818D73114006A8150 /* UIKit.framework */; };
+		F49DF80B18D73114006A8150 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49DF80A18D73114006A8150 /* Foundation.framework */; };
+		F49DF80D18D73114006A8150 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49DF80C18D73114006A8150 /* CoreGraphics.framework */; };
+		F49DF81318D73114006A8150 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F49DF81118D73114006A8150 /* InfoPlist.strings */; };
+		F49DF81518D73114006A8150 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F49DF81418D73114006A8150 /* main.m */; };
+		F49DF81918D73114006A8150 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F49DF81818D73114006A8150 /* AppDelegate.m */; };
+		F49DF81B18D73114006A8150 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F49DF81A18D73114006A8150 /* Default.png */; };
+		F49DF81D18D73114006A8150 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F49DF81C18D73114006A8150 /* Default@2x.png */; };
+		F49DF81F18D73114006A8150 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F49DF81E18D73114006A8150 /* Default-568h@2x.png */; };
+		F49DF83318D732DE006A8150 /* MainTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F49DF83118D732DE006A8150 /* MainTabViewController.m */; };
+		F49DF83418D732DE006A8150 /* MainTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49DF83218D732DE006A8150 /* MainTabViewController.xib */; };
+		F49DF83818D733B7006A8150 /* PayNavigationControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F49DF83618D733B7006A8150 /* PayNavigationControllerViewController.m */; };
+		F49DF83918D733B7006A8150 /* PayNavigationControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49DF83718D733B7006A8150 /* PayNavigationControllerViewController.xib */; };
+		F49DF83D18D7340F006A8150 /* SearchNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F49DF83B18D7340F006A8150 /* SearchNavigationController.m */; };
+		F49DF83E18D7340F006A8150 /* SearchNavigationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49DF83C18D7340F006A8150 /* SearchNavigationController.xib */; };
+		F49DF84218D7343D006A8150 /* MoneyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F49DF84018D7343D006A8150 /* MoneyNavigationController.m */; };
+		F49DF84318D7343D006A8150 /* MoneyNavigationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49DF84118D7343D006A8150 /* MoneyNavigationController.xib */; };
+		F49DF84718D7345B006A8150 /* PrivateNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F49DF84518D7345B006A8150 /* PrivateNavigationController.m */; };
+		F49DF84818D7345B006A8150 /* PrivateNavigationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49DF84618D7345B006A8150 /* PrivateNavigationController.xib */; };
+		F49DF84B18D7541F006A8150 /* PrivateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F49DF84A18D7541F006A8150 /* PrivateViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F49DF80518D73114006A8150 /* UITableTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITableTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49DF80818D73114006A8150 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F49DF80A18D73114006A8150 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F49DF80C18D73114006A8150 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F49DF81018D73114006A8150 /* UITableTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableTest-Info.plist"; sourceTree = "<group>"; };
+		F49DF81218D73114006A8150 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F49DF81418D73114006A8150 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F49DF81618D73114006A8150 /* UITableTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableTest-Prefix.pch"; sourceTree = "<group>"; };
+		F49DF81718D73114006A8150 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F49DF81818D73114006A8150 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F49DF81A18D73114006A8150 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F49DF81C18D73114006A8150 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F49DF81E18D73114006A8150 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F49DF83018D732DE006A8150 /* MainTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabViewController.h; sourceTree = "<group>"; };
+		F49DF83118D732DE006A8150 /* MainTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabViewController.m; sourceTree = "<group>"; };
+		F49DF83218D732DE006A8150 /* MainTabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTabViewController.xib; sourceTree = "<group>"; };
+		F49DF83518D733B7006A8150 /* PayNavigationControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayNavigationControllerViewController.h; sourceTree = "<group>"; };
+		F49DF83618D733B7006A8150 /* PayNavigationControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayNavigationControllerViewController.m; sourceTree = "<group>"; };
+		F49DF83718D733B7006A8150 /* PayNavigationControllerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PayNavigationControllerViewController.xib; sourceTree = "<group>"; };
+		F49DF83A18D7340F006A8150 /* SearchNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchNavigationController.h; sourceTree = "<group>"; };
+		F49DF83B18D7340F006A8150 /* SearchNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchNavigationController.m; sourceTree = "<group>"; };
+		F49DF83C18D7340F006A8150 /* SearchNavigationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchNavigationController.xib; sourceTree = "<group>"; };
+		F49DF83F18D7343D006A8150 /* MoneyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoneyNavigationController.h; sourceTree = "<group>"; };
+		F49DF84018D7343D006A8150 /* MoneyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoneyNavigationController.m; sourceTree = "<group>"; };
+		F49DF84118D7343D006A8150 /* MoneyNavigationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoneyNavigationController.xib; sourceTree = "<group>"; };
+		F49DF84418D7345B006A8150 /* PrivateNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivateNavigationController.h; sourceTree = "<group>"; };
+		F49DF84518D7345B006A8150 /* PrivateNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivateNavigationController.m; sourceTree = "<group>"; };
+		F49DF84618D7345B006A8150 /* PrivateNavigationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrivateNavigationController.xib; sourceTree = "<group>"; };
+		F49DF84918D7541F006A8150 /* PrivateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivateViewController.h; sourceTree = "<group>"; };
+		F49DF84A18D7541F006A8150 /* PrivateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivateViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F49DF80218D73114006A8150 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49DF80918D73114006A8150 /* UIKit.framework in Frameworks */,
+				F49DF80B18D73114006A8150 /* Foundation.framework in Frameworks */,
+				F49DF80D18D73114006A8150 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F49DF7FC18D73113006A8150 = {
+			isa = PBXGroup;
+			children = (
+				F49DF82F18D7327B006A8150 /* Conroller */,
+				F49DF80E18D73114006A8150 /* UITableTest */,
+				F49DF80718D73114006A8150 /* Frameworks */,
+				F49DF80618D73114006A8150 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F49DF80618D73114006A8150 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F49DF80518D73114006A8150 /* UITableTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F49DF80718D73114006A8150 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F49DF80818D73114006A8150 /* UIKit.framework */,
+				F49DF80A18D73114006A8150 /* Foundation.framework */,
+				F49DF80C18D73114006A8150 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F49DF80E18D73114006A8150 /* UITableTest */ = {
+			isa = PBXGroup;
+			children = (
+				F49DF81718D73114006A8150 /* AppDelegate.h */,
+				F49DF81818D73114006A8150 /* AppDelegate.m */,
+				F49DF80F18D73114006A8150 /* Supporting Files */,
+			);
+			path = UITableTest;
+			sourceTree = "<group>";
+		};
+		F49DF80F18D73114006A8150 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F49DF81018D73114006A8150 /* UITableTest-Info.plist */,
+				F49DF81118D73114006A8150 /* InfoPlist.strings */,
+				F49DF81418D73114006A8150 /* main.m */,
+				F49DF81618D73114006A8150 /* UITableTest-Prefix.pch */,
+				F49DF81A18D73114006A8150 /* Default.png */,
+				F49DF81C18D73114006A8150 /* Default@2x.png */,
+				F49DF81E18D73114006A8150 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F49DF82F18D7327B006A8150 /* Conroller */ = {
+			isa = PBXGroup;
+			children = (
+				F49DF83018D732DE006A8150 /* MainTabViewController.h */,
+				F49DF83118D732DE006A8150 /* MainTabViewController.m */,
+				F49DF83218D732DE006A8150 /* MainTabViewController.xib */,
+				F49DF83518D733B7006A8150 /* PayNavigationControllerViewController.h */,
+				F49DF83618D733B7006A8150 /* PayNavigationControllerViewController.m */,
+				F49DF83718D733B7006A8150 /* PayNavigationControllerViewController.xib */,
+				F49DF83A18D7340F006A8150 /* SearchNavigationController.h */,
+				F49DF83B18D7340F006A8150 /* SearchNavigationController.m */,
+				F49DF83C18D7340F006A8150 /* SearchNavigationController.xib */,
+				F49DF83F18D7343D006A8150 /* MoneyNavigationController.h */,
+				F49DF84018D7343D006A8150 /* MoneyNavigationController.m */,
+				F49DF84118D7343D006A8150 /* MoneyNavigationController.xib */,
+				F49DF84418D7345B006A8150 /* PrivateNavigationController.h */,
+				F49DF84518D7345B006A8150 /* PrivateNavigationController.m */,
+				F49DF84618D7345B006A8150 /* PrivateNavigationController.xib */,
+				F49DF84918D7541F006A8150 /* PrivateViewController.h */,
+				F49DF84A18D7541F006A8150 /* PrivateViewController.m */,
+			);
+			name = Conroller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F49DF80418D73114006A8150 /* UITableTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F49DF82218D73114006A8150 /* Build configuration list for PBXNativeTarget "UITableTest" */;
+			buildPhases = (
+				F49DF80118D73114006A8150 /* Sources */,
+				F49DF80218D73114006A8150 /* Frameworks */,
+				F49DF80318D73114006A8150 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UITableTest;
+			productName = UITableTest;
+			productReference = F49DF80518D73114006A8150 /* UITableTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F49DF7FD18D73113006A8150 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = sunlight.wisdom;
+			};
+			buildConfigurationList = F49DF80018D73113006A8150 /* Build configuration list for PBXProject "UITableTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F49DF7FC18D73113006A8150;
+			productRefGroup = F49DF80618D73114006A8150 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F49DF80418D73114006A8150 /* UITableTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F49DF80318D73114006A8150 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49DF81318D73114006A8150 /* InfoPlist.strings in Resources */,
+				F49DF81B18D73114006A8150 /* Default.png in Resources */,
+				F49DF81D18D73114006A8150 /* Default@2x.png in Resources */,
+				F49DF81F18D73114006A8150 /* Default-568h@2x.png in Resources */,
+				F49DF83418D732DE006A8150 /* MainTabViewController.xib in Resources */,
+				F49DF83918D733B7006A8150 /* PayNavigationControllerViewController.xib in Resources */,
+				F49DF83E18D7340F006A8150 /* SearchNavigationController.xib in Resources */,
+				F49DF84318D7343D006A8150 /* MoneyNavigationController.xib in Resources */,
+				F49DF84818D7345B006A8150 /* PrivateNavigationController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F49DF80118D73114006A8150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49DF81518D73114006A8150 /* main.m in Sources */,
+				F49DF81918D73114006A8150 /* AppDelegate.m in Sources */,
+				F49DF83318D732DE006A8150 /* MainTabViewController.m in Sources */,
+				F49DF83818D733B7006A8150 /* PayNavigationControllerViewController.m in Sources */,
+				F49DF83D18D7340F006A8150 /* SearchNavigationController.m in Sources */,
+				F49DF84218D7343D006A8150 /* MoneyNavigationController.m in Sources */,
+				F49DF84718D7345B006A8150 /* PrivateNavigationController.m in Sources */,
+				F49DF84B18D7541F006A8150 /* PrivateViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F49DF81118D73114006A8150 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F49DF81218D73114006A8150 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F49DF82018D73114006A8150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F49DF82118D73114006A8150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F49DF82318D73114006A8150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITableTest/UITableTest-Prefix.pch";
+				INFOPLIST_FILE = "UITableTest/UITableTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F49DF82418D73114006A8150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITableTest/UITableTest-Prefix.pch";
+				INFOPLIST_FILE = "UITableTest/UITableTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F49DF80018D73113006A8150 /* Build configuration list for PBXProject "UITableTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49DF82018D73114006A8150 /* Debug */,
+				F49DF82118D73114006A8150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F49DF82218D73114006A8150 /* Build configuration list for PBXNativeTarget "UITableTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49DF82318D73114006A8150 /* Debug */,
+				F49DF82418D73114006A8150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F49DF7FD18D73113006A8150 /* Project object */;
+}
